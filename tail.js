@@ -20,4 +20,5 @@ assertEqual(answer[1], "Labs");
 assertEqual(words.length, 3);
 assertEqual(tail(["test"]).length, 0); // tail of array with one element only should be empty
 assertEqual(tail([]).length, 0);
+assertEqual(answer.length, words.length - 1);
 
