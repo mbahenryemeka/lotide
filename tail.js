@@ -18,4 +18,6 @@ const answer = tail(words); // tail function removes the first element in the ar
 assertEqual(answer[0], "Lighthouse");
 assertEqual(answer[1], "Labs");
 assertEqual(words.length, 3);
+assertEqual(tail(["test"]).length, 0); // tail of array with one element only should be empty
+assertEqual(tail([]).length, 0);
 
