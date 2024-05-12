@@ -1,4 +1,4 @@
-const assertArraysEqual = ("../assertArraysEqual.js");
+const assertArraysEqual = require("../assertArraysEqual.js");
 const middle = require("../middle.js");
 
 
