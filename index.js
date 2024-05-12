@@ -18,21 +18,21 @@ const flatten = require('./flatten')
 
 
 module.exports = {
-  head:   head,
-  tail:   tail,
-  middle: middle,
-  assertEqual: assertEqual,
-  eqArrays: eqArrays,
-  assertArraysEqual: assertArraysEqual,
-  assertObjectsEqual: assertObjectsEqual,
-  countLetters: countLetters,
-  countOnly: countOnly,
-  eqObjects: eqObjects,
-  findKey: findKey,
-  findKeyByValue: findKeyByValue,
-  letterPositions: letterPositions,
-  takeUntil: takeUntil,
-  without: without,
-  flatten: flatten
+  head,
+  tail,
+  middle,
+  assertEqual,
+  eqArrays,
+  assertArraysEqual,
+  assertObjectsEqual,
+  countLetters,
+  countOnly,
+  eqObjects,
+  findKey,
+  findKeyByValue,
+  letterPositions,
+  takeUntil,
+  without,
+  flatten
 };
 
