@@ -1,4 +1,4 @@
-const eqArrays = function(arr1, arr2) {
+ const eqArrays = function(arr1, arr2) {
   if (arr1.length !== arr2.length) { // condition will first test the length of the element inside the array.
     return false; //if not equal, it will return false and stop the execution.
   }
