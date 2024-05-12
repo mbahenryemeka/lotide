@@ -27,7 +27,7 @@ module.exports = {
   countLetters: countLetters,
   countOnly: countOnly,
   eqObjects: eqObjects,
-  findkey: findKey,
+  findKey: findKey,
   findKeyByValue: findKeyByValue,
   letterPositions: letterPositions,
   takeUntil: takeUntil,
